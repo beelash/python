@@ -7,8 +7,8 @@ class Person:
         def __init__(self, name, age):
             self.name = name
             self.age = age
-ivan = Person("Вася", 43)
-#ivan.set ("Ivan", 43)
+ivan = Person("Вася", 32)
+#ivan.set ("Ivan", 32)
 print(ivan.name + " " + str(ivan.age))
 ##################
 #vlad = Person()

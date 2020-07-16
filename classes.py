@@ -4,14 +4,14 @@ class Person:
         name = "ivan"
         age = 10
 ##################
-        def set(self, name, age):
+        def __init__(self, name, age):
             self.name = name
             self.age = age
-ivan = Person ()
-ivan.set ("Ivan", 43)
+ivan = Person("Вася", 43)
+#ivan.set ("Ivan", 43)
 print(ivan.name + " " + str(ivan.age))
 ##################
-vlad = Person()
-vlad.name = 'Vlad'
-vlad.age = 25
-print(vlad.name + ' ' + str(vlad.age))
+#vlad = Person()
+#vlad.name = 'Vlad'
+#vlad.age = 25
+#print(vlad.name + ' ' + str(vlad.age))
